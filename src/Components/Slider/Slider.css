@@ -1,0 +1,13 @@
+.animate:nth-child(n + 1) {
+  animation: slide 2s ease-out;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
